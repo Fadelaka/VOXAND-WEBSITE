@@ -1,44 +1,77 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>VOXAND</title>
-<style>
-html,body{
-    margin:0;
-    width:100%;
-    height:100%;
-    background:#fff;
-}
-body{
-    display:flex;
-    justify-content:center;
-    align-items:center;
-    font-family:-apple-system,BlinkMacSystemFont,"Avenir Next","Helvetica Neue",Helvetica,Arial,sans-serif;
-}
-.container{
-    text-align:center;
-    padding:40px;
-}
-.logo{
-    width:min(1100px,88vw);
-    height:auto;
-}
-.tagline{
-    margin-top:28px;
-    font-size:20px;
-    font-weight:300;
-    letter-spacing:.42em;
-    text-transform:uppercase;
-    color:#222;
-}
-</style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>VOXAND</title>
+
+    <style>
+        html,
+        body {
+            margin: 0;
+            width: 100%;
+            height: 100%;
+            background: #ffffff;
+        }
+
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-family: -apple-system,
+                         BlinkMacSystemFont,
+                         "Avenir Next",
+                         Helvetica,
+                         Arial,
+                         sans-serif;
+        }
+
+        .container {
+            text-align: center;
+            padding: 40px;
+        }
+
+        .logo {
+            width: min(1100px, 88vw);
+            height: auto;
+            display: block;
+            margin: 0 auto;
+        }
+
+        .tagline {
+            margin-top: 34px;
+            font-size: 22px;
+            font-weight: 300;
+            letter-spacing: .42em;
+            text-transform: uppercase;
+            color: #222222;
+        }
+
+        @media (max-width: 768px) {
+
+            .logo {
+                width: 92vw;
+            }
+
+            .tagline {
+                font-size: 14px;
+                letter-spacing: .28em;
+                margin-top: 22px;
+            }
+        }
+    </style>
+
 </head>
+
 <body>
-<div class="container">
-    <img src="Voxand_logo.png" class="logo" alt="VOXAND">
-    <div class="tagline">STANDARDIZING REASONING</div>
-</div>
+
+    <div class="container">
+        <img src="logo.png" class="logo" alt="VOXAND">
+        <div class="tagline">STANDARDIZING REASONING</div>
+    </div>
+
 </body>
+
 </html>
