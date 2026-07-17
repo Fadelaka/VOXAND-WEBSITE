@@ -3,7 +3,7 @@
 
 <head>
 
-    <!-- Charset & responsive -->
+    <!-- Charset & Responsive -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
@@ -16,8 +16,8 @@
     <title>VOXAND | Reasoning. Standardized.</title>
 
     <meta name="description"
-      content="VOXAND is an AI-native reasoning framework that enables experts to reason with artificial intelligence in their own professional language.">
-      
+        content="VOXAND is an AI-native reasoning framework that enables experts to reason with artificial intelligence in their own professional language.">
+
     <link rel="canonical" href="https://voxand.org/">
 
     <!-- Open Graph -->
@@ -41,11 +41,97 @@
 
     <!-- Schema.org -->
     <script type="application/ld+json">
-    ...
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://voxand.org/#organization",
+      "name": "VOXAND",
+      "url": "https://voxand.org/",
+      "logo": "https://voxand.org/assets/logo.png",
+      "slogan": "Reasoning. Standardized.",
+      "description": "VOXAND is an AI-native reasoning framework that enables experts to reason with artificial intelligence in their own professional language."
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://voxand.org/#website",
+      "url": "https://voxand.org/",
+      "name": "VOXAND",
+      "publisher": {
+        "@id": "https://voxand.org/#organization"
+      },
+      "inLanguage": "en"
+    }
+  ]
+}
     </script>
 
     <style>
-    ...
+
+        html,
+        body {
+            margin: 0;
+            width: 100%;
+            height: 100%;
+            background: #ffffff;
+        }
+
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-family:
+                -apple-system,
+                BlinkMacSystemFont,
+                "Avenir Next",
+                Helvetica,
+                Arial,
+                sans-serif;
+        }
+
+        .container {
+            text-align: center;
+            padding: 40px;
+        }
+
+        .logo {
+            width: min(1100px, 88vw);
+            height: auto;
+            display: block;
+            margin: 0 auto;
+        }
+
+        .tagline {
+            margin-top: 24px;
+            font-family: Optima,
+                         "Optima LT Std",
+                         "Avenir Next",
+                         Helvetica,
+                         Arial,
+                         sans-serif;
+            font-size: 20px;
+            font-weight: 400;
+            letter-spacing: .30em;
+            text-transform: uppercase;
+            color: #222222;
+            text-align: center;
+        }
+
+        @media (max-width:768px) {
+
+            .logo {
+                width: 92vw;
+            }
+
+            .tagline {
+                font-size: 14px;
+                letter-spacing: .22em;
+                margin-top: 18px;
+            }
+
+        }
+
     </style>
 
 </head>
